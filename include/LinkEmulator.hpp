@@ -21,6 +21,7 @@ namespace hm{
         */
         std::vector<std::shared_ptr<Disturbance<T>>> effects;
     public:
+        LinkEmulator() = default;   ///< Default conostructor
         /**
          * @brief Adds a disturbance effect to the link emulator
          * This operator appends the given disturbance effect to the internal
